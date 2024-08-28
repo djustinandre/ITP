@@ -3,9 +3,9 @@
 let base = 3;
 let exponent = 3;
 
-function raise(b, e) {
-  let result = b;
-  let count = 1;
+function exponentiation(b, e) {
+  let result = 1;
+  let count = 0;
   while (count < e) {
     result *= b;
     count++;
@@ -13,4 +13,4 @@ function raise(b, e) {
   return result;
 }
 
-console.log(raise(base, exponent));
+console.log(exponentiation(base, exponent));
