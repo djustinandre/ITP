@@ -13,12 +13,15 @@ setTimeout(() => {
 console.log('Third');
 
 // setTimeout vs setInterval
+
+/* The setTimeout() method calls a function after a number of milliseconds. */
 setTimeout(() => {
   console.log("I'll appear in 3 seconds.");
 }, 3000); // 3 secs
 
+/* 
 let counter = 0;
-/* const threeSecondFunction = setInterval(() => {
+const threeSecondFunction = setInterval(() => {
   console.log("I'll appear in 3 seconds.");
   counter++;
 
